@@ -36,7 +36,7 @@ def imputer(data):
 
         if len(features_to_be_dropped) > 0:
 
-            print("Following features having more than " + str(treshold) + " missing data : {}".format(
+            print("Following features having more than " + str(treshold*100) + " missing data : {}".format(
                 features_to_be_dropped))
             print("Dropping features...")
 
